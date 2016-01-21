@@ -3,6 +3,6 @@ var vowel = function(str) {
     return str + "ay";
 } else if
     (/[^aeiou]/.test(str)) {
-    return str.slice(1) + str.slice(0) + "ay";
+    return str.slice(1) + str.charAt(0) + 'ay';
   }
 };
